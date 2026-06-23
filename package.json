@@ -1,0 +1,19 @@
+{
+  "name": "document-validators",
+  "version": "1.0.0",
+  "description": "Clean and modern validation functions for Brazilian documents (CPF, CNH)",
+  "keywords": [
+    "cpf",
+    "cnh",
+    "validator"
+  ],
+  "license": "ISC",
+  "author": "Hélinton Pagel",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "test:coverage": "npx c8 node --test"
+  }
+}
